@@ -26,6 +26,10 @@ $('.table-down').click(function () {
 jQuery.fn.pop = [].pop;
 jQuery.fn.shift = [].shift;
 
+$BTN.click(function () {
+  var $rows = $TABLE.find('tr:not(:hidden)');
+  var headers = [];
+  var data = [];
 
 
 var navigate = (function() {
