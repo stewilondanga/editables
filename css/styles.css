@@ -8,6 +8,8 @@ body {
 
 @import "compass/css3";
 
+.table-editable {
+  position: relative;
 
 
     h1 {
