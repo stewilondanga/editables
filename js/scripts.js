@@ -11,6 +11,12 @@ $('.table-remove').click(function () {
   $(this).parents('tr').detach();
 });
 
+$('.table-up').click(function () {
+  var $row = $(this).parents('tr');
+  if ($row.index() === 1) return; // Don't go above the header
+  $row.prev().before($row.get(0));
+});
+
 
 
 var navigate = (function() {
