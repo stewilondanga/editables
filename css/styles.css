@@ -29,6 +29,11 @@ body {
     color: #007;
     cursor: pointer;
 
+    &:hover {
+       color: #00f;
+     }
+   }
+
 
 
     h1 {
