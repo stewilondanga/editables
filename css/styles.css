@@ -16,7 +16,11 @@ body {
     }
   }
 
-  
+  .table-remove {
+  color: #700;
+  cursor: pointer;
+
+
 
     h1 {
     	font-family: helvetica;
