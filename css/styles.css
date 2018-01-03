@@ -41,6 +41,10 @@ body {
      top: 8px;
      right: 0;
 
+     &:hover {
+         color: #0b0;
+       }
+     }
 
 
     h1 {
