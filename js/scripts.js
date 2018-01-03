@@ -41,7 +41,12 @@ $BTN.click(function () {
 	 var $td = $(this).find('td');
 	 var h = {};
 
+	 // Use the headers from earlier to name our hash keys
+     headers.forEach(function (header, i) {
+       h[header] = $td.eq(i).text();
+     });
 
+		 
 
 var navigate = (function() {
 	$('.dd').toggle();
