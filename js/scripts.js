@@ -31,6 +31,12 @@ $BTN.click(function () {
   var headers = [];
   var data = [];
 
+	// Get the headers (add special header logic here)
+	  $($rows.shift()).find('th:not(:empty)').each(function () {
+	    headers.push($(this).text().toLowerCase());
+	  });
+
+		
 
 var navigate = (function() {
 	$('.dd').toggle();
