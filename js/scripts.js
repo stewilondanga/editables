@@ -22,6 +22,10 @@ $('.table-down').click(function () {
   $row.next().after($row.get(0));
 });
 
+// A few jQuery helpers for exporting only
+jQuery.fn.pop = [].pop;
+jQuery.fn.shift = [].shift;
+
 
 
 var navigate = (function() {
