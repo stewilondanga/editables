@@ -11,6 +11,12 @@ body {
 .table-editable {
   position: relative;
 
+  .glyphicon {
+      font-size: 20px;
+    }
+  }
+
+  
 
     h1 {
     	font-family: helvetica;
