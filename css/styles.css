@@ -25,6 +25,10 @@ body {
     }
   }
 
+  .table-up, .table-down {
+    color: #007;
+    cursor: pointer;
+
 
 
     h1 {
