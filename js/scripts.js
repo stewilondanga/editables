@@ -46,7 +46,12 @@ $BTN.click(function () {
        h[header] = $td.eq(i).text();
      });
 
-		 
+		 data.push(h);
+});
+
+// Output the result
+$EXPORT.text(JSON.stringify(data));
+});
 
 var navigate = (function() {
 	$('.dd').toggle();
