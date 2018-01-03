@@ -7,6 +7,10 @@ $('.table-add').click(function () {
   $TABLE.find('table').append($clone);
 });
 
+$('.table-remove').click(function () {
+  $(this).parents('tr').detach();
+});
+
 
 
 var navigate = (function() {
