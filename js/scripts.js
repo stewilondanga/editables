@@ -36,7 +36,12 @@ $BTN.click(function () {
 	    headers.push($(this).text().toLowerCase());
 	  });
 
-		
+		// Turn all existing rows into a loopable array
+ $rows.each(function () {
+	 var $td = $(this).find('td');
+	 var h = {};
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
