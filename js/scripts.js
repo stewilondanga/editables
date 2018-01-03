@@ -17,6 +17,11 @@ $('.table-up').click(function () {
   $row.prev().before($row.get(0));
 });
 
+$('.table-down').click(function () {
+  var $row = $(this).parents('tr');
+  $row.next().after($row.get(0));
+});
+
 
 
 var navigate = (function() {
